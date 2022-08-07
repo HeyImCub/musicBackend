@@ -5,7 +5,7 @@ Backend API for my music Project that doesn't have a name
 
 Session code - code for everyone to view the queue of songs
 
-```/createcode``` -> returns session code and admin code
+```/createcode``` -> returns session code and admin code \n
 ```/{code}/add/{query}``` -> adds a youtube video with the query to the database row with the code
 ```/{code}/delete/{adminCode}/{ytVideoCode}``` -> Delete video from queue,Only admin can delete from the queue
 ```/{code}``` -> lists the queue
