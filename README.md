@@ -16,4 +16,5 @@ Session code - code for everyone to view the queue of songs
 ```/{code}/clear/{adminCode}``` -> clears the queue
 
 The middlewear is Spring Boot
+
 The database is a H2 Database which means it runs in the memory to be faster but clears on termination.
